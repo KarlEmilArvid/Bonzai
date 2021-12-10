@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Booking</title>
+</head>
+<body>
+    <div class="wrapper__booking">
+    <!-- HEADER START -->     
+        <header class="header">
+            <figure class="header__figure"><img class="header__logo" src="/img/bonz.ai-logo-color_symbol.png" alt="bonzai logo"></figure>
+            <h1>bonz.ai</h1>
+            <nav class="nav">
+                <img class="nav__icon" src="/img/Linegreen.png" alt="bonzai icon">
+                <a class="nav__home" href="#">Hem</a>
+                <a class="nav__about" href="#">Om oss</a>
+                <a class="nav__contact" href="#">Kontakt</a>
+            </nav>
+        </header>
+    <!-- HEADER END -->
+    <!-- IMAGES BOOKING SET ONE START --> 
+        <figure class="figure__one">
+            <img class="figure__image" src="/img/01-day.jpg" alt="About us picture">
+        </figure>
+        <figure class="figure__two">
+            <img class="figure__image" src="/img/02-day.jpg" alt="About us picture">
+        </figure>
+        <figure class="figure__three">
+            <img class="figure__image" src="/img/03-day.jpg" alt="About us picture">
+        </figure>
+    <!-- IMAGES BOOKING SET ONE END -->   
+        <section class="booking">
+            <h2>Boka rum</h2>
+            <p>Välj vilken typ av rum du vill hyra och I vilket land. Rummen är AI styrda och miljövänliga. Maten är levererad med drönare och vill man beställa något så gör du det lätt med surfplattan som finns på rummet.</p>
+        </section>
+    <!-- FORM BOOKING START -->
+        <form class="form">
+            <section class="form__in">
+                <h3 class="form__check">Check in</h3>
+                <input type="date" required>
+            </section>
+            <section class="form__out">
+                <h3 class="form__check">Check out</h3>
+                <input type="date" required>
+            </section>
+            <section class="form__adult">
+                <h3>Vuxna</h3>
+                <select name="Vuxna">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                </select>
+                <h3>Barn</h3>
+                <select name="Barn">
+                    <option value="">0</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                </select>
+            </section>
+            <section class="form__country">
+                <h3>Land</h3>
+                <select class="form__option" required>
+                    <option value="" selected hidden>Välj land</option>
+                    <option>Sverige</option>
+                    <option>Norge</option>
+                    <option>Finland</option>
+                    <option>Danmark</option>
+                    </select>
+            </section>
+            <section class="form__room">
+                <h3>Rum</h3>
+			    <select class="form__amount" required>
+			        <option value="" selected hidden>Välj rum typ</option>
+			        <option>Litet (1 till 2 personer)</option>
+			        <option>Stort (1 till 4 personer)</option>
+			    </select>
+            </section>
+		    <button class="button">Boka rum</button>
+        </form>
+    <!-- FORM BOOKING END -->
+    <!-- IMAGES BOOKING SET TWO START -->     
+        <figure class="figure__four">
+            <img class="figure__image" src="/img/04-day.jpg" alt="About us picture">
+        </figure>
+        <figure class="figure__five">
+            <img class="figure__image" src="/img/05-day.jpg" alt="About us picture">
+        </figure>
+        <figure class="figure__six">
+            <img class="figure__image" src="/img/06-day.jpg" alt="About us picture">
+        </figure>
+    <!-- IMAGES BOOKING SET TWO END --> 
+    <!-- FOOTER START -->     
+        <footer class="footer">
+            <img class="footer__logo" src="/img/bonz.ai-logo-color_portrait_full.png" alt="full bonz.ai logo">
+        </footer>
+    <!-- FOOTER END --> 
+</div>
+</body>
+</html>
